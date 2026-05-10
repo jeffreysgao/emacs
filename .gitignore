@@ -22,3 +22,4 @@ ido.last
 /.emacs.desktop.lock
 /lisp/haml-mode/
 .DS_Store
+transient/*

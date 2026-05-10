@@ -2,7 +2,7 @@
 ;;  in evil-pkg remove undo-tree from define-package list
 ;;
 (require 'evil)
-(evil-mode 1)
+;;(evil-mode 1)
 (global-evil-leader-mode)
 
 (require 'evil-surround)
@@ -59,7 +59,7 @@
 (define-key evil-motion-state-map (kbd "C-d") 'delete-char)
 (define-key evil-motion-state-map (kbd "C-e") 'evil-end-of-line)
 
-;; insert-state
+;; insert-st
 (define-key evil-insert-state-map (kbd "C-a") 'move-beginning-of-line)
 (define-key evil-insert-state-map (kbd "C-d") 'delete-char)
 (define-key evil-insert-state-map (kbd "C-g") 'evil-keyboard-quit)

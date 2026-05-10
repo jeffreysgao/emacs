@@ -5,12 +5,12 @@
 (require 'python)
 (setq python-indent-guess-indent-offset nil)
 (setq python-indent-offset 2)
-(setq nose-use-verbose nil)
+;; (setq nose-use-verbose nil)
 
-(require 'nose)
+;; (require 'nose)
 
-(add-to-list 'nose-project-names "script/test")
-(add-to-list 'nose-project-names "script/docker-test")
+;; (add-to-list 'nose-project-names "script/test")
+;; (add-to-list 'nose-project-names "script/docker-test")
 
 (add-hook 'python-mode-hook
           (lambda ()

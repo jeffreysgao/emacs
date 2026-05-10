@@ -1,4 +1,4 @@
-(setq evil-want-C-u-scroll t)
+;; (setq evil-want-C-u-scroll t)
 
 (require 'package)
 
@@ -31,11 +31,11 @@
         diminish
         ;; dired+
         ;; dired-isearch
-        evil
-        evil-leader
-        evil-surround
-        evil-numbers
-        evil-paredit
+;;        evil
+;;        evil-leader
+;;        evil-surround
+;;        evil-numbers
+;;        evil-paredit
         exec-path-from-shell
         expand-region
         flycheck
@@ -54,7 +54,7 @@
         paredit
         php-mode
         python
-        nose
+        ;; nose
         rspec-mode
         ruby-mode
         sass-mode

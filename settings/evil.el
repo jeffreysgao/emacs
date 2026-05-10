@@ -59,7 +59,7 @@
 (define-key evil-motion-state-map (kbd "C-d") 'delete-char)
 (define-key evil-motion-state-map (kbd "C-e") 'evil-end-of-line)
 
-;; insert-st
+;; insert-state
 (define-key evil-insert-state-map (kbd "C-a") 'move-beginning-of-line)
 (define-key evil-insert-state-map (kbd "C-d") 'delete-char)
 (define-key evil-insert-state-map (kbd "C-g") 'evil-keyboard-quit)
